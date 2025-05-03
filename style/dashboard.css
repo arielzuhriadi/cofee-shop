@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #F7F7F7;
+    --color2: #FFB22C;
+    --color3: #854836;
+    --color4: #000000;
+}
+
+
+main {
+    margin-top: 15vh;
+}
+
+#dashboard {
+    width: 100%;
+    height: 100dvh;
+    background-color: black;
+}
+
+#dashboard>video {
+    width: 100%;
+    height: 100dvh;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+#dashboard>.judul {
+    position: absolute;
+    z-index: 1;
+}
+
+.judul {
+    width: 80%;
+    margin-left: 25vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 70%;
+}
+
+.judul>h1 {
+    color: white;
+    font-size: 4rem;
+    white-space: pre-wrap;
+}
+
+.judul>p {
+    color: white;
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 600px) {
+    main {
+        margin-top: 10vh;
+    }
+
+    #dasboard {
+        width: 100%;
+    }
+
+    #dashboard>video {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #dashboard>.judul {
+        position: absolute;
+        width: 100%;
+        padding: 20px;
+        z-index: 1;
+    }
+
+    .judul {
+        width: 100%;
+        height: 100vh;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        opacity: 70%;
+    }
+}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 768px) {}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+:root{
+    --color1: #F7F7F7;
+    --color2: #FFB22C;
+    --color3: #854836;
+    --color4: #000000;
+}
+
+
+#menu {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#menu>h2 {
+    margin-top: 10vh;
+    font-size: 2rem;
+}
+
+#menu>p {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.kotak-menu {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.items {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.top>img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bottom>h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#viewMenu {
+    background-color: transparent;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#viewMenu:hover {
+    background-color: var(--color3);
+    transition: all 1s;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 600px) {
+    
+#menu {
+    width: 100%;
+    padding: 10px;
+}
+
+#menu>h2 {
+    margin-top: 5vh;
+}
+
+#menu>p {
+    font-size: 1.3rem;
+}
+
+.kotak-menu {
+    margin-top: 5vh;
+}
+
+.items {
+    width: 45%;
+}
+
+}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 768px) {}

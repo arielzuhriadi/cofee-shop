@@ -1,0 +1,157 @@
+footer {
+    background-color: var(--color4);
+    margin-top: 10vh;
+    padding: 30px;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    color: white;
+}
+
+
+:root {
+    --color1: #F7F7F7;
+    --color2: #FFB22C;
+    --color3: #854836;
+    --color4: #000000;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* items 1 */
+.items1 {
+    width: 40%;
+}
+
+.items1>p {
+    padding: 10px;
+}
+
+#imgFooter {
+    display: flex;
+    align-items: center;
+}
+
+#imgFooter>img {
+    width: 20%;
+}
+
+/* items 2 */
+.items2 {
+    width: 20%;
+}
+
+
+/* items 3 */
+.items3 {
+    width: 20%;
+}
+
+/* items 4 */
+.items4 {
+    width: 20%;
+}
+
+.sosmed {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    font-size: 1.2rem;
+}
+
+.sosmed>i {
+    cursor: pointer;
+}
+
+.sosmed>i:hover {
+    border-bottom: 2px solid white;
+}
+
+/* nav Footer */
+
+#navFooter {
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+
+
+
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 600px) {
+
+    footer {
+        margin-top: 5vh;
+        padding: 30px;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .box-footer {
+        flex-direction: column;
+    }
+
+    #navFooter {
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+    /* items 1 */
+    .items1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #imgFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* items 2 */
+    .items2 {
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+
+    /* items 3 */
+    .items3 {
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+    /* items 4 */
+    .items4 {
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+    .sosmed {
+        width: 100%;
+        justify-content: space-around;
+        font-size: 1.4rem;
+    }
+
+    .sosmed>i {
+        cursor: pointer;
+    }
+
+    /* nav Footer */
+
+}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 768px) {}

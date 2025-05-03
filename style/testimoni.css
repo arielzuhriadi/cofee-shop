@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20vh;
+}
+
+
+#testimoniCard>button {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+#testimoniCard>button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+#testimoniCard>h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 5vh;
+}
+
+.card-items {
+    width: 30%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+
+.card-items>h3 {
+    text-align: center;
+}
+
+.card-items>p {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.card-items>.star {
+    margin-top: 2vh;
+}
+
+.star>i {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: yellow;
+}
+
+
+
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 18vh;
+    }
+
+    .card{
+        justify-content: space-around;
+    }
+
+    .card-items {
+        width: 45%;
+        border: 2px solid gray;
+        border-radius: 10px;
+        color: black;
+        padding: 10px;
+    }
+
+
+    .card-items>p {
+        text-align: center;
+        margin-top: 1vh;
+        font-size: 13px;
+    }
+
+    .card-items>.star {
+        margin-top: 2vh;
+    }
+
+    .star>i {
+        font-size: 1.4rem;
+        cursor: pointer;
+        color: yellow;
+    }
+}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 768px) {}
